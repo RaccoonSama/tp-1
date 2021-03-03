@@ -1,0 +1,35 @@
+.sectionCours article {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(170, 203, 245);
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 2s ease;
+    color: rgb(175, 104, 255);
+    font-weight: bold;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+#primary header {
+    display: flex;
+    justify-content: center;
+    font-size: clamp(1rem, #{"-0.875rem + 8.333vw"}, 2rem);
+   border-bottom: 5px solid rgb(175, 104, 255);
+   width: 80%;
+   margin: 0 auto;
+   color: #191970;
+   
+}
+
+@media screen and (min-width: 37.5em) {
+
+    .sectionCours article { 
+        width: 40%;
+    }
+    
+ }
+
+
